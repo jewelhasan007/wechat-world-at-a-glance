@@ -73,74 +73,92 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.5rem;
+  --background: oklch(0.975 0 0);
+  --foreground: oklch(0.2 0 0);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.2 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --popover-foreground: oklch(0.2 0 0);
+  --primary: oklch(0.65 0.17 153);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.94 0 0);
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.95 0 0);
+  --muted-foreground: oklch(0.57 0 0);
+  --accent: oklch(0.93 0.08 153);
+  --accent-foreground: oklch(0.25 0.06 153);
+  --destructive: oklch(0.58 0.22 28);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: oklch(0.65 0.17 153);
+  --chart-1: oklch(0.65 0.17 153);
+  --chart-2: oklch(0.63 0.16 250);
+  --chart-3: oklch(0.72 0.17 80);
+  --chart-4: oklch(0.62 0.2 20);
+  --chart-5: oklch(0.68 0.16 310);
+  --sidebar: oklch(0.98 0 0);
+  --sidebar-foreground: oklch(0.2 0 0);
+  --sidebar-primary: oklch(0.65 0.17 153);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.93 0.08 153);
+  --sidebar-accent-foreground: oklch(0.25 0.06 153);
+  --sidebar-border: oklch(0.9 0 0);
+  --sidebar-ring: oklch(0.65 0.17 153);
+  --wechat-green: oklch(0.63 0.17 153);
+  --wechat-hover: oklch(0.67 0.16 153);
+  --hero-link: oklch(1 0 0 / 76%);
+  --resource-surface: oklch(0.96 0 0);
+  --resource-news: oklch(0.59 0.24 277);
+  --resource-safety: oklch(0.68 0.2 155);
+  --resource-help: oklch(0.77 0.17 79);
+  --footer-text: oklch(0.43 0 0);
+  --footer-muted: oklch(0.62 0 0);
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.208 0.042 265.755);
-  --sidebar-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.279 0.041 260.031);
-  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.551 0.027 264.364);
+  --background: oklch(0.975 0 0);
+  --foreground: oklch(0.2 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0 0);
+  --primary: oklch(0.65 0.17 153);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.94 0 0);
+  --secondary-foreground: oklch(0.25 0 0);
+  --muted: oklch(0.95 0 0);
+  --muted-foreground: oklch(0.57 0 0);
+  --accent: oklch(0.93 0.08 153);
+  --accent-foreground: oklch(0.25 0.06 153);
+  --destructive: oklch(0.58 0.22 28);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
+  --ring: oklch(0.65 0.17 153);
+  --chart-1: oklch(0.65 0.17 153);
+  --chart-2: oklch(0.63 0.16 250);
+  --chart-3: oklch(0.72 0.17 80);
+  --chart-4: oklch(0.62 0.2 20);
+  --chart-5: oklch(0.68 0.16 310);
+  --sidebar: oklch(0.98 0 0);
+  --sidebar-foreground: oklch(0.2 0 0);
+  --sidebar-primary: oklch(0.65 0.17 153);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.93 0.08 153);
+  --sidebar-accent-foreground: oklch(0.25 0.06 153);
+  --sidebar-border: oklch(0.9 0 0);
+  --sidebar-ring: oklch(0.65 0.17 153);
+  --wechat-green: oklch(0.63 0.17 153);
+  --wechat-hover: oklch(0.67 0.16 153);
+  --hero-link: oklch(1 0 0 / 76%);
+  --resource-surface: oklch(0.96 0 0);
+  --resource-news: oklch(0.59 0.24 277);
+  --resource-safety: oklch(0.68 0.2 155);
+  --resource-help: oklch(0.77 0.17 79);
+  --footer-text: oklch(0.43 0 0);
+  --footer-muted: oklch(0.62 0 0);
 }
 
 @layer base {
@@ -151,5 +169,340 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.wechat-page {
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--resource-surface);
+  color: var(--foreground);
+}
+
+.wechat-hero {
+  position: relative;
+  z-index: 1;
+  height: 594px;
+  color: var(--primary-foreground);
+  background: var(--wechat-green);
+  border-radius: 0 0 50% 50% / 0 0 13% 13%;
+}
+
+.hero-language {
+  position: absolute;
+  top: 30px;
+  right: max(40px, calc((100% - 1120px) / 2));
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--hero-link);
+  font-size: 16px;
+}
+
+.hero-language a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.hero-language a:hover,
+.hero-language a:focus-visible {
+  color: var(--primary-foreground);
+}
+
+.language-divider {
+  height: 17px;
+  border-left: 1px solid var(--hero-link);
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 160px;
+}
+
+.wechat-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-foreground);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.chat-mark {
+  width: 66px;
+  height: 54px;
+}
+
+.chat-mark-dot {
+  fill: var(--wechat-green);
+}
+
+.hero-description {
+  margin: 43px 0 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.platform-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 47px;
+}
+
+.platform-link {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 50%;
+  background: oklch(1 0 0 / 9%);
+  color: var(--primary-foreground);
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.platform-link:hover,
+.platform-link:focus-visible {
+  transform: translateY(-3px);
+  background: oklch(1 0 0 / 16%);
+}
+
+.platform-icon {
+  flex: 0 0 34px;
+}
+
+.resource-section {
+  min-height: 352px;
+  padding: 72px 24px 80px;
+  background: var(--resource-surface);
+}
+
+.resource-list {
+  display: grid;
+  width: min(100%, 904px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.resource-link {
+  position: relative;
+  display: flex;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.resource-link:hover,
+.resource-link:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px oklch(0 0 0 / 7%);
+}
+
+.resource-icon-news {
+  color: var(--resource-news);
+}
+
+.resource-icon-safety {
+  color: var(--resource-safety);
+}
+
+.resource-icon-help {
+  color: var(--resource-help);
+}
+
+.resource-arrow {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0;
+  color: var(--muted-foreground);
+  transition: opacity 160ms ease;
+}
+
+.resource-link:hover .resource-arrow,
+.resource-link:focus-visible .resource-arrow {
+  opacity: 1;
+}
+
+.wechat-footer {
+  display: flex;
+  min-height: 168px;
+  align-items: center;
+  flex-direction: column;
+  padding: 43px 20px 30px;
+  background: var(--card);
+  color: var(--footer-text);
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  line-height: 1.6;
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: var(--foreground);
+  text-decoration: underline;
+}
+
+.copyright {
+  margin: 14px 0 0;
+  color: var(--footer-muted);
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--footer-text);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  background: var(--wechat-green);
+  color: var(--primary-foreground);
+}
+
+.page-tail {
+  min-height: max(300px, calc(100vh - 1114px));
+  background: var(--resource-surface);
+}
+
+@media (max-width: 640px) {
+  .wechat-hero {
+    height: 570px;
+    border-radius: 0 0 50% 50% / 0 0 8% 8%;
+  }
+
+  .hero-language {
+    top: 22px;
+    right: 20px;
+    gap: 9px;
+    font-size: 14px;
+  }
+
+  .hero-content {
+    padding: 147px 16px 0;
+  }
+
+  .wechat-wordmark {
+    gap: 7px;
+    font-size: 42px;
+  }
+
+  .chat-mark {
+    width: 57px;
+    height: 48px;
+  }
+
+  .hero-description {
+    margin-top: 36px;
+    font-size: 16px;
+  }
+
+  .platform-list {
+    display: grid;
+    grid-template-columns: repeat(2, 104px);
+    gap: 14px;
+    margin-top: 33px;
+  }
+
+  .platform-link {
+    width: 104px;
+    height: 104px;
+  }
+
+  .resource-section {
+    min-height: 0;
+    padding: 48px 20px 56px;
+  }
+
+  .resource-list {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .resource-link {
+    min-height: 112px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 18px;
+    padding: 0 26px;
+  }
+
+  .resource-arrow {
+    top: 50%;
+    right: 22px;
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
+  .wechat-footer {
+    min-height: 190px;
+    padding: 33px 18px 28px;
+  }
+
+  .footer-links {
+    column-gap: 8px;
+    row-gap: 3px;
+  }
+
+  .page-tail {
+    min-height: 120px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
